@@ -8,7 +8,7 @@ function noSearchDefaultPageRender() {
       <div class="content-container">
         <h1>Unduck Nuzzified</h1>
         <p>DuckDuckGo's bang redirects are too slow. Add the following URL as a custom search engine to your browser. Enables <a href="https://duckduckgo.com/bang.html" target="_blank">all of DuckDuckGo's bangs.</a></p>
-        <p>Adjusted ny Nuzzas Katla to have DuckDuckGo as the default instead of Google.</p>
+        <p>Adjusted by Nuzzas Katla to have DuckDuckGo as the default instead of Google.</p>
         <div class="url-container"> 
           <input 
             type="text" 
