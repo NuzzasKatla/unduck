@@ -27,6 +27,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --text: #e1e1e1;
+  --horn-tips: #b54cba;
+  --stripes:#a04ea6;
+  --fur: #774e9f;
+  --iris: #5e3682;
+  --scales: #2f252e;
 }
 
 * {
@@ -39,13 +45,14 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: var(--scales);
 }
 
 body {
   line-height: 1.5;
   font-weight: 400;
   font-size: 16px;
-  color: #1a1a1a;
+  color: var(--text);
 }
 
 h1,
@@ -59,10 +66,11 @@ h6 {
 }
 
 a {
-  color: #444444;
+  color: var(--text);
+  text-decoration: underline var(--text);
 }
 a:hover {
-  color: #888888;
+  text-decoration: underline var(--horn-tips);
 }
 
 button {
@@ -95,15 +103,15 @@ textarea {
 /* Update url-input width to be 100% since container will control max width */
 .url-input {
   padding: 8px 12px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--iris);
   border-radius: 4px;
   width: 100%;
-  background: #f5f5f5;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .copy-button {
   padding: 8px;
-  color: #666;
+  color: var(--stripes);
   border-radius: 4px;
   transition: all 0.2s;
   display: flex;
@@ -112,11 +120,11 @@ textarea {
 }
 
 .copy-button:hover {
-  background: #f0f0f0;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .copy-button:active {
-  background: #e5e5e5;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .copy-button img {
@@ -136,15 +144,15 @@ textarea {
   right: 0;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: var(--stripes);
 }
 
 .footer a {
-  color: #666;
+  color: var(--stripes);
   text-decoration: none;
   font-weight: 500;
 }
 
 .footer a:hover {
-  color: #333;
+  color: var(--fur);
 }
