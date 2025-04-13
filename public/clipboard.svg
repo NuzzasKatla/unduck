@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clipboard"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <path d="M16,3L16,5C16,5.552 15.552,6 15,6L9,6C8.448,6 8,5.552 8,5L8,3C8,2.448 8.448,2 9,2L15,2C15.552,2 16,2.448 16,3Z" style="fill:none;stroke:white;stroke-width:2px;"/>
+    <path d="M16,4L18,4C19.097,4 20,4.903 20,6L20,20C20,21.097 19.097,22 18,22L6,22C4.903,22 4,21.097 4,20L4,6C4,4.903 4.903,4 6,4L8,4" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:2px;"/>
+</svg>
