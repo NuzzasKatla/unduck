@@ -45,7 +45,8 @@ function noSearchDefaultPageRender() {
   });
 }
 
-const LS_DEFAULT_BANG = localStorage.getItem("default-bang") ?? "?";
+const params = new URLSearchParams(new URL(window.location.href).search);
+const LS_DEFAULT_BANG = localStorage.getItem("default-bang") ?? ?? "?";
 const defaultBang = bangs.find((b) => b.t === LS_DEFAULT_BANG);
 
 function getBangredirectUrl() {

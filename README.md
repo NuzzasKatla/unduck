@@ -1,10 +1,20 @@
 # Unduck Nuzzified
 
-DuckDuckGo's bang redirects are too slow. Add the following URL as a custom search engine to your browser. Enables all of DuckDuckGo's bangs to work, but much faster.
+Theo's unduck, but with duckduckgo as the default, and urlparam options as well.
 
 ```
 https://unduck.nuzzas.eu?q=%s
 ```
+
+If you want a custom default bang use
+
+```
+https://unduck.nuzzas.eu?d=<default bang>&q=%s
+```
+
+## Theo's original readme:
+
+DuckDuckGo's bang redirects are too slow. Add the following URL as a custom search engine to your browser. Enables all of DuckDuckGo's bangs to work, but much faster.
 
 ## How is it that much faster?
 
