@@ -17,19 +17,19 @@ function noSearchDefaultPageRender() {
             readonly 
           />
           <button class="copy-button">
-            <img src="/clipboard.svg" alt="Copy" />
+            <img src="/clipboard.svg" alt="Copy" id="copy-img" />
           </button>
         </div>
         <p><br>Also added the option to use url parameters instead of local storage for custom default bangs (in case you'd like to use wikipedia or something!).</p>
         <div class="url-container"> 
           <input 
             type="text" 
-            class="url-input"
+            class="url-input-two"
             value="https://unduck.nuzzas.eu?d=<default bang>&q=%s"
             readonly 
           />
-          <button class="copy-button">
-            <img src="/clipboard.svg" alt="Copy" />
+          <button class="copy-button-two">
+            <img src="/clipboard.svg" alt="Copy" id="copy-img-two" />
           </button>
         </div>
       </div>
@@ -44,8 +44,12 @@ function noSearchDefaultPageRender() {
   `;
 
   const copyButton = app.querySelector<HTMLButtonElement>(".copy-button")!;
-  const copyIcon = copyButton.querySelector("img")!;
+  const copyIcon = copyButton.querySelector(".copy-img")!;
   const urlInput = app.querySelector<HTMLInputElement>(".url-input")!;
+  
+  const copyButton2 = app.querySelector<HTMLButtonElement>(".copy-button-two")!;
+  const copyIcon2 = copyButton2.querySelector(".copy-img-two")!;
+  const urlInput2 = app.querySelector<HTMLInputElement>(".url-input-two")!;
 
   copyButton.addEventListener("click", async () => {
     await navigator.clipboard.writeText(urlInput.value);
@@ -53,6 +57,15 @@ function noSearchDefaultPageRender() {
 
     setTimeout(() => {
       copyIcon.src = "/clipboard.svg";
+    }, 2000);
+  })
+  
+  copyButton2.addEventListener("click", async () => {
+    await navigator.clipboard.writeText(urlInput2.value);
+    copyIcon2.src = "/clipboard-check.svg";
+
+    setTimeout(() => {
+      copyIcon2.src = "/clipboard.svg";
     }, 2000);
   });
 }
