@@ -20,6 +20,18 @@ function noSearchDefaultPageRender() {
             <img src="/clipboard.svg" alt="Copy" />
           </button>
         </div>
+        <p>Also added the option to use url parameters instead of local storage for custom default bangs (in case you'd like to use wikipedia or something!).</p>
+        <div class="url-container"> 
+          <input 
+            type="text" 
+            class="url-input"
+            value="https://unduck.nuzzas.eu?d=<default bang>&q=%s"
+            readonly 
+          />
+          <button class="copy-button">
+            <img src="/clipboard.svg" alt="Copy" />
+          </button>
+        </div>
       </div>
       <footer class="footer">
         <a href="https://nuzzas.eu" target="_blank">Nuzzas Katla</a>
