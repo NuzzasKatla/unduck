@@ -20,7 +20,7 @@ function noSearchDefaultPageRender() {
             <img src="/clipboard.svg" alt="Copy" />
           </button>
         </div>
-        <p>Also added the option to use url parameters instead of local storage for custom default bangs (in case you'd like to use wikipedia or something!).</p>
+        <p><br>Also added the option to use url parameters instead of local storage for custom default bangs (in case you'd like to use wikipedia or something!).</p>
         <div class="url-container"> 
           <input 
             type="text" 
