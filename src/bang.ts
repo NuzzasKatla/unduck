@@ -2,6 +2,15 @@
 
 export const bangs = [
   {
+    c: "PID",
+    d: "pid.cz",
+    r: 0,
+    s: "PID search",
+    sc: "PID",
+    t: "pid",
+    u: "https://pid.cz/?s={{{s}}}",
+  },
+  {
     c: "AI",
     d: "www.t3.chat",
     r: 0,
