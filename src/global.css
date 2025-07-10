@@ -158,7 +158,7 @@ textarea {
 .footer a:hover {
   color: var(--fur);
 }
-
+/*
 @media (prefers-color-scheme: dark) {
   body {
     color: #ddd;
@@ -203,3 +203,4 @@ textarea {
     background: #333;
   }
 }
+*/
