@@ -16,9 +16,9 @@ function noSearchDefaultPageRender() {
             value="https://unduck.nuzzas.eu?q=%s"
             readonly 
           />
-          <button class="copy-button">
+          <!--<button class="copy-button">
             <img src="/clipboard.svg" alt="Copy" id="copy-img" />
-          </button>
+          </button>-->
         </div>
         <p><br>Also added the option to use url parameters instead of local storage for custom default bangs (in case you'd like to use wikipedia or something!).</p>
         <div class="url-container"> 
@@ -28,9 +28,9 @@ function noSearchDefaultPageRender() {
             value="https://unduck.nuzzas.eu?d=<default bang>&q=%s"
             readonly 
           />
-          <button class="copy-button-two">
+          <!--<button class="copy-button-two">
             <img src="/clipboard.svg" alt="Copy" id="copy-img-two" />
-          </button>
+          </button>-->
         </div>
       </div>
       <footer class="footer">
@@ -51,7 +51,7 @@ function noSearchDefaultPageRender() {
   const copyIcon2 = copyButton2.querySelector(".copy-img-two")!;
   const urlInput2 = app.querySelector<HTMLInputElement>(".url-input-two")!;
 
-  copyButton.addEventListener("click", async () => {
+  /*copyButton.addEventListener("click", async () => {
     await navigator.clipboard.writeText(urlInput.value);
     copyIcon.src = "/clipboard-check.svg";
 
@@ -67,7 +67,7 @@ function noSearchDefaultPageRender() {
     setTimeout(() => {
       copyIcon2.src = "/clipboard.svg";
     }, 2000);
-  });
+  });*/
 }
 
 const params = new URLSearchParams(new URL(window.location.href).search);
