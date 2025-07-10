@@ -31,6 +31,7 @@ function noSearchDefaultPageRender() {
           <!--<button class="copy-button-two">
             <img src="/clipboard.svg" alt="Copy" id="copy-img-two" />
           </button>-->
+          <p><br>And to whom it may concern, I also added a !pid bang for pid.cz, it takes you to the appropriate line, station or stop depending on what you type in (or just searches the website if those don't match). If you're not in Prague, you can most likely ignore this.</p>
         </div>
       </div>
       <footer class="footer">
