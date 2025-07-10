@@ -43,11 +43,11 @@ function noSearchDefaultPageRender() {
     </div>
   `;
 
-  const copyButton = app.querySelector<HTMLButtonElement>(".copy-button")!;
+  //const copyButton = app.querySelector<HTMLButtonElement>(".copy-button")!;
   //const copyIcon = copyButton.querySelector(".copy-img")!;
   //const urlInput = app.querySelector<HTMLInputElement>(".url-input")!;
   
-  const copyButton2 = app.querySelector<HTMLButtonElement>(".copy-button-two")!;
+  //const copyButton2 = app.querySelector<HTMLButtonElement>(".copy-button-two")!;
   //const copyIcon2 = copyButton2.querySelector(".copy-img-two")!;
   //const urlInput2 = app.querySelector<HTMLInputElement>(".url-input-two")!;
 
