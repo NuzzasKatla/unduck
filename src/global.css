@@ -102,7 +102,7 @@ textarea {
 }
 
 /* Update url-input width to be 100% since container will control max width */
-.url-input {
+.url-input, .url-input-two {
   padding: 8px 12px;
   border: 1px solid var(--iris);
   border-radius: 4px;
