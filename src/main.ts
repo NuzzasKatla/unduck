@@ -14,6 +14,7 @@ function noSearchDefaultPageRender() {
             type="text" 
             class="url-input"
             value="https://unduck.nuzzas.eu?q=%s"
+            onclick="selection.modify("extend","forward","line");selection.modify("extend","backward","line");"
             readonly 
           />
           <!--<button class="copy-button">
@@ -26,6 +27,7 @@ function noSearchDefaultPageRender() {
             type="text" 
             class="url-input-two"
             value="https://unduck.nuzzas.eu?d=<default bang>&q=%s"
+            onclick="selection.modify("extend","forward","line");selection.modify("extend","backward","line");"
             readonly 
           />
           <!--<button class="copy-button-two">
